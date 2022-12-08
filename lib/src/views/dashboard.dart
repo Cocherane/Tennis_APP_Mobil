@@ -16,6 +16,17 @@ class DashBoard extends StatefulWidget {
 }
 
 class _DashBoardState extends State<DashBoard> {
+  
+  @override
+  void initState() {
+    super.initState();
+    //set orientation device
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight
+    ]);
+  }
+  
   // instancia del controlador
   final ControllerMatch controller = ControllerMatch();
   List<String> pointsPlayers = ['00', '00'];
