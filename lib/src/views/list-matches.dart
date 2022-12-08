@@ -101,27 +101,7 @@ class ListMatches extends StatelessWidget {
       ),
     );
 
-    // ListTile(
-    //   // imagen player 0
-    //   leading: Image.network(
-    //     match.player[0].picture,
-    //     height: 400,
-    //   ),
-    //   title: Text( '${match.player[0].name}  VS ${match.player[1].name}' ),
-    //   trailing: Image.network(
-    //     match.player[1].picture,
-    //     width: 200,
-    //   ),
-    //   style: ListTileStyle.list,
-    //   visualDensity: VisualDensity(vertical: 4),
-    //   onTap: () {
-    //     Navigator.push(
-    //                 context,
-    //                 MaterialPageRoute(
-    //                     builder: (context) =>
-    //                         DashBoard( match: match )));
-    //   },
-    // );
+   
   }
 }
 
