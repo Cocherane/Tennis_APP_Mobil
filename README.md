@@ -1,16 +1,45 @@
-# practica4_tennis_mobil
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/Cocherane/Imagenpractica3/main/tennis-logo.png" alt="Markdownify" width="200"></a>
+  <br>
+  ScoreBoard Tennis
+  <br>
+</h1>
 
-A new Flutter project.
 
-## Getting Started
+<h4 align="center">A minimal ScoreBoard Tennis app built on top of <a href="https://flutter.dev/" target="_blank">Flutter</a>.</h4>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/WE3bQnArl3U"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) , [Flutter](https://docs.flutter.dev/get-started/install) & [Node.js](https://nodejs.org/en/download/)  installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Cocherane/Tennis_APP_Mobil.git
+
+# Go into the repository
+$ cd Tennis_APP_Mobil
+
+# Install dependencies
+$ flutter analyze
+
+# Run the app
+$ flutter run lib/main.dart
+```
+
