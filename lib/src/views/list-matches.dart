@@ -10,6 +10,12 @@ class ListMatches extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //set orientation device
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight
+    ]);
+    
     return Scaffold(
       appBar: AppBar(
         leading: Image.asset(
